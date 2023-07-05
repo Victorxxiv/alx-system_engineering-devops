@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | awk '{print (NR>2 ? (p = length($0)-1) ? substr($0,1,p)"/" : $0 : $0) "," } END {print ""}'
+ls -ap1 | awk 'BEGIN{ORS=", "} NR>2{print}' | sed 's/,\s$/\n/'
