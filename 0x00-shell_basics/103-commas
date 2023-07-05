@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap1 | awk 'BEGIN{ORS=", "} NR>2{print}' | sed 's/,\s$/\n/'
+ls -A1p | grep -v '/$' | LC_COLLATE=C sort -fd | awk '{printf "%s, ", $0} END{print ""}' | sed 's/,$/\n/'
