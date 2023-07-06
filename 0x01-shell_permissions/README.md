@@ -10,8 +10,10 @@
 ########## 8-James_Bond ; all permissions given to others only
 ########### 9-John_Doe ; to print -rwxr-x-wx
 ############ 10-mirror_permissions ; sets the mode of the file hello the same as olleh’s mode
-############# Creates a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
-############## Creates a script that creates a directory called my_dir with permissions 751 in the working directory.
-############### changes the group owner to school for the file hello
-################ changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
-################# changes the owner and the group owner of _hello to vincent and staff respectivel ; hello is a symbolic link
+############# 11-directories_permissions Creates a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+############## 12-directory_permissions Creates a script that creates a directory called my_dir with permissions 751 in the working directory.
+############### 13-change_group changes the group owner to school for the file hello
+################ 100-change_owner_and_group changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+################# 101-symbolic_link_permissions changes the owner and the group owner of _hello to vincent and staff respectivel ; hello is a symbolic link
+################# 102-if_only changes the owner of the file hello to betty only if it is owned by the user guillaume.
+################## 103-Star_Wars; script that will play the StarWars IV episode in the terminal.
