@@ -9,3 +9,4 @@
 ######### 7-everybody ; gives execute permission to everybody
 ########## 8-James_Bond ; all permissions given to others only
 ########### 9-John_Doe ; to print -rwxr-x-wx
+############ 10-mirror_permissions ; sets the mode of the file hello the same as olleh’s mode
