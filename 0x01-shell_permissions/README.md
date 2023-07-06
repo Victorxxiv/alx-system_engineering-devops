@@ -5,3 +5,4 @@
 ##### 3-new_owner ; how to change file owner to new owner
 ###### 4-empty ; how to create an empty file named hello
 ####### 5-execute ; how to change the hello permission while on the current directory
+######## 6-multiple_permissions ; how to had 6 permissions u,g,o
