@@ -6,3 +6,4 @@
 ###### 4-empty ; how to create an empty file named hello
 ####### 5-execute ; how to change the hello permission while on the current directory
 ######## 6-multiple_permissions ; how to had 6 permissions u,g,o
+######### 7-everybody ; gives execute permission to everybody
