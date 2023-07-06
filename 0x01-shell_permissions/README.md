@@ -10,4 +10,5 @@
 ########## 8-James_Bond ; all permissions given to others only
 ########### 9-John_Doe ; to print -rwxr-x-wx
 ############ 10-mirror_permissions ; sets the mode of the file hello the same as olleh’s mode
-############# Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. 
+############# Creates a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+############## Creates a script that creates a directory called my_dir with permissions 751 in the working directory. 
