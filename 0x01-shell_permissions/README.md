@@ -8,3 +8,4 @@
 ######## 6-multiple_permissions ; how to had 6 permissions u,g,o
 ######### 7-everybody ; gives execute permission to everybody
 ########## 8-James_Bond ; all permissions given to others only
+########### 9-John_Doe ; to print -rwxr-x-wx
