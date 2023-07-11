@@ -37,4 +37,4 @@ The files should be sorted by byte values, but case-insensitive (file aaa should
 One file name per line
 The listing should end with a new line
 You are not allowed to use basename, grep, egrep, fgrep or rgrep
-
+102-acrostic  ; An acrostic is a poem
