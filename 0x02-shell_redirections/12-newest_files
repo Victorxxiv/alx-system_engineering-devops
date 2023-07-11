@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | tail -n +2 | cut -d ' ' -f 9 | head -n 10
+ls -lt | grep -v "^d" | while read -r line; do echo "$line" | cut -d ' ' -f 9-; done | head -n 10
