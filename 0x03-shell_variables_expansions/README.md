@@ -6,3 +6,5 @@ scripts showing Shell, init files, variables and expansions
 3-paths  ;  script that counts the number of directories in the PATH
 4-global_variables  ; Create a script that lists environment variables.
 5-local_variables  ; a script that lists all local variables and environment variables, and functions.
+6-create_local_variable  ; a script that creates a new local variable. Name: BEST and Value: School
+
